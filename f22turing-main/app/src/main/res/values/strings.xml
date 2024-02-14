@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">EmployeeSide</string>
+    <string name="EmployeeFName">First Name</string>
+    <string name="EmployeeLName">Last Name</string>
+    <string name="EmployeeEmail">Enter Email</string>
+    <string name="EmployeeActive">Active</string>
+    <string name="EmployeeDeactivated">Deactivated</string>
+    <string name="ViewEmployees">View</string>
+    <string name="addBtn">Add</string>
+    <string name="home_screen_btn">Employees</string>
+    <string name="home_screen_btn2">Schedule</string>
+    <string name="home_screen_title">Restaurant Scheduler</string>
+    <string name="EmployeePhone">Enter Phone No.</string>
+    <string name="AddScreenTitle">Add Employee</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Availability">Availability</string>
+    <string name="ViewScreenTitle" />
+    <string name="view_screen_title">View Employee</string>
+    <string name="edit_employee_title">Edit Employee</string>
+    <string name="employees_title">Employees</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+
+    <string name="AvailabilityTitle">Add Availability</string>
+    <string-array name="availableTimes">
+        <item>Unavailable</item>
+        <item>Opening</item>
+        <item>Closing</item>
+        <item>All Day</item>
+    </string-array>
+    <string name="AvailabilityWeekend">Add weekend Availability</string>
+    <string-array name="weekendavailableTimes">
+        <item>Unavailable</item>
+        <item>All Day</item>
+    </string-array>
+    <string name="OpeningTraining">Opening</string>
+    <string name="ClosingTraining">Closing</string>
+    <string name="feb_2021">Feb 2021</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thur">THUR</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="date">1</string>
+    <string name="morningLabel">Morning</string>
+    <string name="afternoonLabel">Afternoon</string>
+    <string name="busyLabel">Busy?</string>
+    <string name="fullDayLabel">Full Day</string>
+    <string name="StatusTitle">Status</string>
+    <string-array name="TrainingStatus">
+        <item>Needs Training</item>
+        <item>Trained</item>
+
+    </string-array>
+</resources>

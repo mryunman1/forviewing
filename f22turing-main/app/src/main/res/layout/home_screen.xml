@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HomeScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#83DABD2E">
+
+    <Button
+        android:id="@+id/schedule_btn"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/home_screen_btn2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:backgroundTint="#1E3D51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <Button
+        android:id="@+id/employees_btn"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/home_screen_btn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:backgroundTint="#1E3D51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <ImageView
+        android:id="@+id/restaurant_logo"
+        android:layout_width="310dp"
+        android:layout_height="300dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/employees_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542"
+        app:srcCompat="@drawable/ic_baseline_restaurant_menu_24" />
+
+    <TextView
+        android:id="@+id/home_screen_title"
+        android:layout_width="287dp"
+        android:layout_height="135dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/home_screen_title"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#1E3D51"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/restaurant_logo"
+        app:layout_constraintEnd_toEndOf="@+id/restaurant_logo"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/restaurant_logo"
+        app:layout_constraintTop_toTopOf="@+id/restaurant_logo"
+        app:layout_constraintVertical_bias="0.484" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
